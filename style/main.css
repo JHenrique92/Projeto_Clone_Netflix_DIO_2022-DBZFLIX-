@@ -1,0 +1,145 @@
+
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elemntos base*/
+body{
+    background: var(--preta) ;
+    font-family: 'Arial', Times, serif;
+    color:white;    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+header nav a{
+    text-decoration:none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/DBSUPER.jpg');
+
+    height: 600px;
+    background-size:cover;
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.filme-principal img {
+    height: auto;
+    width: auto;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+.filme-principal .titulo{
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.55);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    padding: 1px 2px;
+    margin-right: 13px;
+    font-size: 12px;  
+    transition: .5s ease all;
+}
+.efeito a{
+    border-radius: 4px;
+    position: relative;
+    display:inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition:0.2s;
+}
+.efeito_sayajin a {
+    position: relative;
+    display:inline-block;
+    padding: 7px 10px;
+    color: #f8f00a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition:0.2s;
+    border-radius: 8px;
+}
+.efeito_sayajin a:hover{
+    color: #6f8004;
+    background:#f3ec21;
+    box-shadow: 0 0 10px #f0f321, 0 0 40px #bbf321, 0 0 80px 
+    #f3e521;
+}
+a:hover{
+    color: #255784;
+    background:#2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px 
+    #2196f3;
+}
+.botao i{
+    margin-right: 10px;
+}
+
+.botao:hover{
+    
+    color:black 8px
+}
+.container{
+    margin-left: 5px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width:100%;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 10px;
+}
+.rodape{
+    position:relative;
+}
